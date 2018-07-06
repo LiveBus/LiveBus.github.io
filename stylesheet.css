@@ -1,0 +1,25 @@
+* {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+li {
+    list-style-type:none;
+}
+
+.stop {
+    background-color: blue;
+}
+
+.stop ul li {
+    background-color: red;
+}
+
+.stop ul ul li {
+    background-color: green;
+}
+
+/*#run ul ul, #run ul ul * {
+    display:inline;
+}*/
